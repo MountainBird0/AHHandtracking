@@ -183,8 +183,8 @@ GameObject:
   - component: {fileID: 634836360}
   - component: {fileID: 634836359}
   - component: {fileID: 634836358}
-  - component: {fileID: 634836363}
   - component: {fileID: 634836362}
+  - component: {fileID: 634836363}
   - component: {fileID: 634836364}
   m_Layer: 0
   m_Name: Cylinder
@@ -1268,7 +1268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4186627062058628622, guid: 3532cb0fabb1cc44ba9d39fd1de28000, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4186627063081627005, guid: 3532cb0fabb1cc44ba9d39fd1de28000, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1333,6 +1333,10 @@ PrefabInstance:
     - target: {fileID: 4186627063717197064, guid: 3532cb0fabb1cc44ba9d39fd1de28000, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8777524847960354991, guid: 3532cb0fabb1cc44ba9d39fd1de28000, type: 3}
+      propertyPath: fingerBendPast.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8777524849780935084, guid: 3532cb0fabb1cc44ba9d39fd1de28000, type: 3}
       propertyPath: m_Name
